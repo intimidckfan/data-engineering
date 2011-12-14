@@ -1,0 +1,22 @@
+Livingsocial Challenge for Software Engineer
+
+This program accepts a tab delimited file with the following columns: purchaser name, item description, item price, purchase count, merchant address, and merchant name. It parses the file, normalizes the data, and stores the information in a mysql database. The total amount gross revenue is then displayed.
+
+Instructions for updateDatabase.php :
+
+1. Open updateDatabase.php in a web browser
+2. You will be prompted to enter a username and password 
+IMPORTANT: username and password MUST HAVE database creation, insertion, and selection privileges in MySQL. 
+3. Select "Browse" to find file and click "Upload File"
+4. Revenue will be displayed under "Upload File" button
+
+In the case that updateDatabase.php with HTTP Authentication does not work for you, a version with no authentication has been provided.
+
+Instructions for updateDatabase_noAuth.php :
+
+1. Open updateDatabase.php in web browser
+2. Select "Browse" to find file and click "Upload File"
+3. Revenue will be displayed under "Upload File" button
+
+
+
